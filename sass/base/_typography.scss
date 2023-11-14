@@ -3,19 +3,24 @@
 
 // Fonts
 @import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap');
 
 // Defining Styles
+
+h1, h2, p { font-family: $font_family_roboto;}
 
 h1 {
     font-size: $font-size-header;
     font-weight: $font-weight-bolder;
-    word-wrap: break-word;
+
 }
 
 h2 {
     font-size: $font-size-text;
     font-weight: $font-weight-bold;
-    word-wrap: break-word;
+}
+
+p {
+   font-size: $font-size-seconary-header;
+   font-weight: $font-weight-light;
 }
