@@ -1,0 +1,28 @@
+.main-container {
+    margin: 0 20px
+}
+
+.infobox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__title {
+        padding: 39px 58px 9px 42px;
+        text-align: center;
+
+    }
+
+    &__subtitle {
+        padding: 0 26px 0 35px;
+        text-align: center;
+    }
+
+    &__btn {
+        margin: 27px 75px 57px 82px; 
+        width: 218px;
+        height: 50px;
+    }
+}
+
