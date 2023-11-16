@@ -17,46 +17,60 @@
     }
 
     &__btn {
-        margin: 27px 75px 57px 82px; 
+        margin: 27px 75px 57px 82px;
         width: 218px;
         height: 50px;
     }
 }
 
+
 .function {
 
-    padding: 48px 20px 68px 20px;
+    // Making the cards into a column
     display: flex;
     flex-direction: column;
+
+    padding: 48px 20px 68px 20px;
     gap: 25px;
 
     &__card {
+
+        // Making the card content into a row
         display: flex;
         flex-direction: row;
-        gap: 23px;
         align-items: center;
-        padding: 29px 0;
 
+        padding: 29px 0;
+        gap: 23px;
+
+        // Make the position of the card element relative to the flow of the page
         position: relative;
         left: 12px;
 
+        // Styling the numerical steps
         &--step {
-            position: absolute;
-            left: -12px;
-            
-            
-            background-color: $primary-color;
-            width: 24px;
-            height: 24px;
-            border-radius: 50%;
 
             // Centering the step numbers
             display: flex;
             align-items: center;
             justify-content: center;
+
+            // Positioning it absolutely based on it's parent element.
+            position: absolute;
+            left: -12px;
+
+            //Defining a 1:1 aspect ratio 
+            width: 24px;
+            height: 24px;
+
+            // Make the background a circle
+            border-radius: 50%;
+
+            // Defining Purple Color
+            background-color: $primary-color;
         }
 
-        &--icon { 
+        &--icon {
             padding-left: 33.5px;
             color: $secondary-icon-color;
 
@@ -67,7 +81,4 @@
         }
 
     }
-
-
 }
-
