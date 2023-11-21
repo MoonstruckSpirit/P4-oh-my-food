@@ -105,22 +105,22 @@ a, a:visited, a:hover, a:active {
   color: #353535;
 }
 
-.infobox {
+.hero {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: #F6F6F6;
 }
-.infobox__title {
+.hero__title {
   padding: 39px 58px 9px 42px;
   text-align: center;
 }
-.infobox__subtitle {
+.hero__subtitle {
   padding: 0 26px 0 35px;
   text-align: center;
 }
-.infobox__btn {
+.hero__btn {
   margin: 27px 75px 57px 82px;
   width: 218px;
   height: 50px;
@@ -184,7 +184,7 @@ a, a:visited, a:hover, a:active {
   display: flex;
   justify-content: space-between;
 }
-.restaurants__card__content--text {
+.restaurants__card__content-- .restaurants__card__content--text {
   display: flex;
   flex-direction: column;
   gap: 5px;
