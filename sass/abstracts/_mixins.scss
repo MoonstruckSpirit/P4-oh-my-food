@@ -21,3 +21,7 @@
 @mixin primary-gradient {
     background: linear-gradient(0deg, $primary-color 0%, $secondary-color 100%);
 }
+
+@mixin hover-gradient {
+    background: linear-gradient(0deg, lighten($primary-color, 5%) 0%, lighten($secondary-color, 5%) 100%);
+}
