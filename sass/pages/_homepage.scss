@@ -50,6 +50,7 @@
         // Styling the numerical steps
         &--step {
 
+            @include h3-like;
             // Centering the step numbers
             display: flex;
             align-items: center;
@@ -82,3 +83,39 @@
 
     }
 }
+
+.restaurants {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    padding: 0 18px 0 17px;
+    background-color: $bg-alt;
+
+    &__card {
+        width: 100%;
+ 
+        &--img {
+            object-fit: contain;
+            border-radius: 15px 15px 0 0;
+            width: 100%;
+        }
+
+        &__content {
+          padding: 16px 25px 12px 16px;
+          display: flex;
+          justify-content: space-between;
+
+         &--
+
+
+          &--text {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+          }
+
+        }
+
+    }
+}
+
