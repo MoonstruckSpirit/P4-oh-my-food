@@ -30,7 +30,6 @@
         .fa-solid {
             width: 14px;
         }
-
     }
 
     &__logo {
@@ -38,5 +37,21 @@
         font-weight: $font-weight-lighter;
         font-size: $font-size-seconary-header;
 
+    }
+
+    @media (min-width: $max-width) { 
+        flex-direction: row-reverse;
+        
+        gap: 100px;
+        padding: 50px 110px 20px 0;
+
+        &__nav {
+            flex-direction: row;
+            gap: 20px;
+
+            &--bold:nth-child(2) {
+                margin-right: 40px;
+            }
+        }
     }
 }
