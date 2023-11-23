@@ -227,7 +227,7 @@ a, a:visited, a:hover, a:active {
 }
 @media (min-width: 1440px) {
   .how-it-works {
-    padding: 48px 180px 0 180px;
+    padding: 48px 180px 68px 180px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;

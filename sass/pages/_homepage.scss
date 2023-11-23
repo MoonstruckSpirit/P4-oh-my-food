@@ -47,7 +47,7 @@
         // Making the cards into a column
         display: flex;
         flex-direction: column;
-        padding: 25px 0 68px 0;
+        padding-top: 25px;
         gap: 25px;
         
 
@@ -104,7 +104,7 @@
 
     @media (min-width: $max-width) {
         
-        padding: 48px 180px 0 180px;
+        padding: 48px 180px 68px 180px;
 
         display: flex;
         flex-direction: column;
@@ -128,13 +128,14 @@
 
 .restaurants {
 
+    padding: 30px 18px 0 17px;
     background-color: $bg-alt;
     
     &__cards {
         display: flex;
         flex-direction: column;
         gap: 18px;
-        padding: 54px 18px 66px 17px;
+        padding: 54px 0 66px 0;
 
 
         &--card {
