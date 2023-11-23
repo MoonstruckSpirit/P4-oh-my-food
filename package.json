@@ -1,0 +1,23 @@
+{
+  "name": "oh-my-food",
+  "version": "1.0.0",
+  "description": "Food/Restaurant Reservation Service",
+  "main": "index.js",
+  "scripts": {
+    "sass-watch": "sass --watch style.scss assets/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MoonstruckSpirit/P4-oh-my-food.git"
+  },
+  "keywords": [
+    "food",
+    "ohmyfood"
+  ],
+  "author": "MoonstruckSpirit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MoonstruckSpirit/P4-oh-my-food/issues"
+  },
+  "homepage": "https://github.com/MoonstruckSpirit/P4-oh-my-food#readme"
+}
