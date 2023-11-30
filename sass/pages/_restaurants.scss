@@ -86,22 +86,25 @@
         align-items: flex-end;
         justify-content: space-between;
 
-        overflow: hidden;
-
-        
-
         &--isColumn {
             display: flex;
             flex-direction: column;
             flex: 2;
             padding: 15px;
+            overflow: hidden;
+            white-space: nowrap;
         }
-
-
     }
 }
 
+
 .dish {
+
+    &__title,
+    &__subtitle {
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
     &__addtocart {
 
         display: flex;

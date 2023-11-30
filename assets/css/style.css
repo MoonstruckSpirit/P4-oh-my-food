@@ -425,15 +425,20 @@ a, a:visited, a:hover, a:active {
   flex-direction: row;
   align-items: flex-end;
   justify-content: space-between;
-  overflow: hidden;
 }
 .items__dish--isColumn {
   display: flex;
   flex-direction: column;
   flex: 2;
   padding: 15px;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
+.dish__title, .dish__subtitle {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 .dish__addtocart {
   display: flex;
   justify-content: center;
