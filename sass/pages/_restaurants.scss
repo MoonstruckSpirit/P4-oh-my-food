@@ -2,7 +2,7 @@
     &__img {
         width: 100%;
         object-fit: cover;
-
+        height: 40vh;
 
         @media (min-width: $max-width) {
             height: 390px;
@@ -23,6 +23,12 @@
     @media (min-width: $max-width) {
         margin: -50px 192px 0 193px;
         padding: 50px 210px;
+        gap: 40px;
+    }
+
+    @media (min-width: $tablet-max) {
+        margin: -50px 20px 0 20px;
+        padding: 50px 50px;
         gap: 40px;
     }
 
@@ -86,22 +92,25 @@
         align-items: flex-end;
         justify-content: space-between;
 
-        overflow: hidden;
-
-        
-
         &--isColumn {
             display: flex;
             flex-direction: column;
             flex: 2;
             padding: 15px;
+            overflow: hidden;
+            white-space: nowrap;
         }
-
-
     }
 }
 
+
 .dish {
+
+    &__title,
+    &__subtitle {
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
     &__addtocart {
 
         display: flex;
@@ -116,12 +125,10 @@
         width: 5em;
         margin-right: -5em;
 
-
-        padding: 0 0 0 0; 
         border-radius: 0 15px 15px 0;
 
         // visibility: hidden;
-        transition: 1000ms ease;
+        transition: 700ms ease;
 
         &__ico {
             color: white;
@@ -129,6 +136,12 @@
     }
 
     .items__dish:hover &__addtocart {
+        margin-right: 0em;
+        visibility: visible;
+
+    }
+
+    .items__dish:active &__addtocart {
         margin-right: 0em;
         visibility: visible;
 

@@ -102,6 +102,15 @@
         }
     }
 
+    @media (min-width: $tablet-max) {
+
+        padding: 48px 180px 68px 180px;
+        &__title {
+            text-align: center;
+        }
+            
+    }
+
     @media (min-width: $max-width) {
         
         padding: 48px 180px 68px 180px;
@@ -124,6 +133,8 @@
             }
         }
     }
+
+
 }
 
 .restaurants {
