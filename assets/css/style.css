@@ -562,10 +562,10 @@ a, a:visited, a:hover, a:active {
   background-color: white;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
 }
-.card --isGrey {
+.card--isGrey {
   background-color: #F6F6F6;
 }
-.card --isDish {
+.card--isDish {
   border-radius: 15px;
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
 }
