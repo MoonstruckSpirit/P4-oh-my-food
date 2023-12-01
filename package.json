@@ -25,7 +25,7 @@
     "sass": "^1.69.5"
   },
   "scripts": {
-    "test": "sass"
+    "sass-watch": "sass --watch style.scss assets/css/style.css"
   },
   "repository": {
     "type": "git",
