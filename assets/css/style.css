@@ -432,6 +432,7 @@ a, a:visited, a:hover, a:active {
 }
 
 .items__dish {
+  overflow: hidden;
   height: 69px;
   display: flex;
   flex-direction: row;
@@ -455,7 +456,7 @@ a, a:visited, a:hover, a:active {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #99e2d0;
+  background-color: #99E2D0;
   height: 100%;
   width: 5em;
   margin-right: -5em;
@@ -467,18 +468,12 @@ a, a:visited, a:hover, a:active {
 }
 .items__dish:hover .dish__addtocart {
   margin-right: 0em;
-  visibility: visible;
-}
-.items__dish:active .dish__addtocart {
-  margin-right: 0em;
-  visibility: visible;
 }
 .dish__price {
   padding: 0 15px 15px 0;
 }
 
 .starter > li {
-  overflow: hidden;
   opacity: 0;
   transform: translateY(100%);
   animation: fadeInUp 0.7s cubic-bezier(0.47, 1.64, 0.41, 0.8) forwards;
@@ -503,7 +498,6 @@ a, a:visited, a:hover, a:active {
 }
 
 .main > li {
-  overflow: hidden;
   opacity: 0;
   transform: translateY(100%);
   animation: fadeInUp 0.7s cubic-bezier(0.47, 1.64, 0.41, 0.8) forwards;
@@ -528,7 +522,6 @@ a, a:visited, a:hover, a:active {
 }
 
 .dessert > li {
-  overflow: hidden;
   opacity: 0;
   transform: translateY(100%);
   animation: fadeInUp 0.7s cubic-bezier(0.47, 1.64, 0.41, 0.8) forwards;
@@ -564,15 +557,15 @@ a, a:visited, a:hover, a:active {
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
 }
 
-.card, .card--isDish, .card--isGrey {
+.card {
   border-radius: 20px;
   background-color: white;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
 }
-.card--isGrey {
+.card --isGrey {
   background-color: #F6F6F6;
 }
-.card--isDish {
+.card --isDish {
   border-radius: 15px;
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
 }
