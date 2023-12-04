@@ -51,7 +51,12 @@ img {
   display: block;
 }
 
-h1, h2, h3, p {
+a, a:visited, a:hover, a:active {
+  color: inherit;
+  text-decoration: none;
+}
+
+body {
   font-family: "Roboto", sans-serif;
 }
 
@@ -215,7 +220,7 @@ a, a:visited, a:hover, a:active {
   width: 218px;
   height: 50px;
 }
-@media (min-width: 1440px) {
+@media (min-width: 1024px) {
   .hero__title {
     font-size: 40px;
   }
@@ -266,16 +271,15 @@ a, a:visited, a:hover, a:active {
 .how-it-works__cards--card--icon--purple {
   color: #9456DC;
 }
-@media (min-width: 1024px) {
+@media (min-width: 600px) {
   .how-it-works {
     padding: 48px 180px 68px 180px;
-  }
-  .how-it-works__title {
     text-align: center;
   }
 }
-@media (min-width: 1440px) {
+@media (min-width: 1024px) {
   .how-it-works {
+    text-align: left;
     padding: 48px 180px 68px 180px;
     display: flex;
     flex-direction: column;
@@ -340,7 +344,7 @@ a, a:visited, a:hover, a:active {
   flex-direction: column;
   gap: 5px;
 }
-@media (min-width: 1440px) {
+@media (min-width: 1024px) {
   .restaurants {
     padding: 30px 180px;
   }
@@ -360,7 +364,7 @@ a, a:visited, a:hover, a:active {
   object-fit: cover;
   height: 40vh;
 }
-@media (min-width: 1440px) {
+@media (min-width: 1024px) {
   .hero__img {
     height: 390px;
   }
@@ -376,13 +380,13 @@ a, a:visited, a:hover, a:active {
   background-color: #F6F6F6;
   margin-top: -50px;
 }
-@media (min-width: 1440px) {
+@media (min-width: 1024px) {
   .menu {
     margin: -50px 192px 0 193px;
     gap: 40px;
   }
 }
-@media (min-width: 1024px) {
+@media (min-width: 600px) {
   .menu {
     margin: -50px 192px 0 193px;
     padding: 50px 210px;
@@ -394,7 +398,7 @@ a, a:visited, a:hover, a:active {
   flex-direction: row;
   align-items: center;
 }
-@media (min-width: 1440px) {
+@media (min-width: 1024px) {
   .menu__header {
     justify-content: center;
     gap: 27px;

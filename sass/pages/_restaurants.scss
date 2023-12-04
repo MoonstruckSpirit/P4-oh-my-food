@@ -4,7 +4,7 @@
         object-fit: cover;
         height: 40vh;
 
-        @media (min-width: $max-width) {
+        @media (min-width: $desktop-min) {
             height: 390px;
         }
     }
@@ -20,12 +20,12 @@
     background-color: $bg-alt;
     margin-top: -50px;
 
-    @media (min-width: $max-width) {
+    @media (min-width: $desktop-min) {
         margin: -50px 192px 0 193px;
         gap: 40px;
     }
 
-    @media (min-width: $tablet-max) {
+    @media (min-width: $tablet-min) {
         margin: -50px 192px 0 193px;
         padding: 50px 210px;
         gap: 40px;
@@ -37,7 +37,7 @@
         align-items: center;
  
 
-        @media (min-width: $max-width) {
+        @media (min-width: $desktop-min) {
             justify-content: center;
             gap: 27px;
         }
