@@ -28,7 +28,8 @@
             border: none;
             width: auto;
             
-            @include h2-like;
+            font-size: $font-size-text;
+            font-weight: 500;
         }
 
         &--location-dot {
