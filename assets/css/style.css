@@ -281,6 +281,11 @@ a, a:visited, a:hover, a:active {
   position: relative;
   width: 100%;
 }
+.restaurants__cards--card--like {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
 .restaurants__cards--card--img {
   object-fit: cover;
   height: 251px;
@@ -319,9 +324,6 @@ a, a:visited, a:hover, a:active {
     flex-wrap: wrap;
     padding: 28px 0 30px 0;
     gap: 50px 100px;
-  }
-  .restaurants__cards .restaurants__cards--card {
-    flex: calc(50% - 100px);
   }
 }
 
