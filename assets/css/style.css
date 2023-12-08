@@ -303,7 +303,7 @@ a, a:visited, a:hover, a:active {
   border-radius: 2px;
   right: 15px;
   top: 15px;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
 }
 .restaurants__cards--card--content {
   padding: 16px 25px 12px 16px;
@@ -457,7 +457,7 @@ a, a:visited, a:hover, a:active {
   font-size: 25px;
 }
 .menu .items__dish:hover .dish__addtocart {
-  margin-right: 0em;
+  margin-right: 0;
 }
 
 .starter > li {
@@ -539,24 +539,24 @@ a, a:visited, a:hover, a:active {
   font-size: 16px;
   font-weight: 500;
   background: linear-gradient(0deg, #9456DC 0%, #FF79DA 100%);
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
 }
 .btn:hover {
   background: linear-gradient(0deg, #a16be0 0%, #ff93e1 100%);
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
 }
 
 .card, .card--isDish, .card--isGrey {
   border-radius: 20px;
   background-color: white;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
 }
 .card--isGrey {
   background-color: #F6F6F6;
 }
 .card--isDish {
   border-radius: 15px;
-  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
 .fa-solid {
