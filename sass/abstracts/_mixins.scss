@@ -1,9 +1,9 @@
 @import "../abstracts/variables";
 
 // Box Shadow Mixins
-@mixin drop-shadow { box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15); }
-@mixin hover-drop-shadow { box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4); }
-@mixin drop-shadow-dish { box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.10); }
+@mixin drop-shadow { box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15); }
+@mixin hover-drop-shadow { box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4); }
+@mixin drop-shadow-dish { box-shadow: 0 4px 15px rgba(0, 0, 0, 0.10); }
 
 // BTN Gradients
 @mixin primary-gradient {
